@@ -212,7 +212,6 @@ async def get_method(
         .first()
     )
 
-
 #Endpoint para busqueda de información de los metodos de pago
 @app.get(
     "/methods/detail/{id}",
@@ -357,8 +356,6 @@ origins = [
     "http://localhost:5173"
 ]
 
-
-
 #permisos
 app.add_middleware(
     CORSMiddleware,
@@ -370,40 +367,3 @@ app.add_middleware(
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
-"""
-class User(BaseModel):
-    email: str
-    username: str
-    password: str
-
-class User_list(BaseModel):
-    user_list: List[User]
-
-origins = [
-    "http://localhost:5173"
-]
-
-#permisos
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-memory_db = {"user_list": []}
-
-@app.get("/user_list", response_model=User_list)
-async def get_user_list():
-    return User_list(user_list=memory_db["user_list"])
-
-@app.post("/user_list", response_model=User)
-def add_user(user: User):
-    memory_db["user_list"].append(user)
-    return user
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
-
-"""

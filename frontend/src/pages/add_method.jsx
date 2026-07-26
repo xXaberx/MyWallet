@@ -122,22 +122,17 @@ function Add_Methods() {
                                 Seleccione...
                             </option>
 
-                            <option value="Visa">
-                                Visa
+                            <option value="tarjeta">
+                                Tarjeta
                             </option>
 
-                            <option value="MasterCard">
-                                MasterCard
+                            <option value="Cuenta bancaria">
+                                Cuenta bancaria
                             </option>
 
-                            <option value="American Express">
-                                American Express
+                            <option value="CLABE">
+                                CLABE
                             </option>
-
-                            <option value="Débito">
-                                Débito
-                            </option>
-
 
                         </select>
 

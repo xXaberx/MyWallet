@@ -96,9 +96,9 @@ function EditMethod() {
                     >
 
                         <option value="">Seleccione...</option>
-                        <option value="Visa">Visa</option>
-                        <option value="MasterCard">MasterCard</option>
-                        <option value="American Express">American Express</option>
+                        <option value="tarjeta">tarjeta</option>
+                        <option value="Cuenta bancaria">Cuenta bancaria</option>
+                        <option value="CLABE">CLABE</option>
 
                     </select>
 

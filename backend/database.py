@@ -12,13 +12,7 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 try:
     with engine.connect() as connection:
-
-        result = connection.execute(
-            text("SELECT * FROM users")
-        )
-
-        for row in result:
-            print(row)
+        print("conexion exitosa")
 
 except Exception as e:
     print(e)
