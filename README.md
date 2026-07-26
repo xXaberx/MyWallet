@@ -1,4 +1,4 @@
-💳 Sistema de Gestión de Métodos de Pago
+MyWallet
 
 Este proyecto consiste en una aplicación web desarrollada con el objetivo de permitir a los usuarios administrar de forma sencilla y segura sus métodos de pago.
 La aplicación implementa un sistema completo de autenticación y registro de cuentas y administración de metodos de pago, donde el frontend desarrollado con React se apoya de una API REST desarrollada en FastAPI y con un respaldo de información usando una base de datos My sql en Clever Cloud.
