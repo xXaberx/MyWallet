@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+sqlalchemy
+pymysql
+python-dotenv
+MySQLdb
+security
+passlib
+react-router-dom

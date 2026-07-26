@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# Variables de entorno
+.env
+*.env
+db.env
+
+# PyCharm
+.idea/
+
+# Node
+node_modules/
+
+# Vite
+dist/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
